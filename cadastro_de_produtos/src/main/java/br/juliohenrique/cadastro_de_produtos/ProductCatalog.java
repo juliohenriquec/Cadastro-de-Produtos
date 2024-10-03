@@ -56,11 +56,7 @@ public class ProductCatalog extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
-
-    @FXML
-    public void initialize() {
-        // A lista de produtos já está inicializada no start()
-    }
+    
 
     private void addProduct() {
         String name = nameField.getText();
